@@ -1,0 +1,693 @@
+.home-container{
+    background : #2B63D9;
+    display: flex;
+
+}
+.home-container1{
+    color: white;
+    font-size:18px ;
+    flex: 1;
+    justify-content: flex-start;
+    margin-right:22%;
+   padding-left: 65px;
+   padding-top: 5%;
+
+}
+.home-heading-container{
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.home-para-container{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-top: 3%;
+    
+}
+.home-btn{
+    width: Hug (121px);
+   height: Hug (46px);
+   padding: 12px 18px 12px 18px;
+   border-radius: 6px;
+   gap: 6px;
+   background: #437EF7;
+   border: none;
+   margin-right: 70%;
+   box-shadow: 0px 1px 2px 0px #437EF7; 
+   margin-top: 3%;
+   color: aliceblue;
+}
+.we-support-container{
+    padding-top: 8%;
+    margin-right: 35%;
+    padding-bottom: 20px;
+}
+.we-support-heading{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+text-align: left;
+}
+.home-img-container{
+   margin-top: 3%;
+   display: flex;
+   justify-content:space-around;
+   text-align: center;
+   flex-wrap: wrap;
+   column-gap: 13px;
+  
+}
+  
+  .git-img,
+  .slack-img,
+  .netflx-img,
+  .paypal-img {
+    width: 70px;
+    height: 18px;
+   margin: 2px;
+   padding-left: 2px;
+  }
+  
+  .home-img-containers{  
+    padding-right: 12%;
+    background: #3161c9;
+    }
+    .graphic-img{
+        height:530px;
+        width: 420px;
+        padding-bottom: 55px;
+
+
+    }
+
+/*  Products section*/
+
+    .products-col{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        
+    }
+    .products-details{
+       border: 1px solid none;
+       display: flex;
+       padding-right: 12%;
+       padding-left: 13%;
+       margin: 26px;
+       flex-direction: column;
+       align-items: flex-start;
+     
+    }
+    .product-img{
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product-heading{
+      font-size: 1.5rem;
+      margin-top: 8px;
+
+    }
+    .product-para{
+      margin-top: 8px;
+      
+
+    }
+
+    .product-btn {
+      margin-top: 15px;
+      color: #1623dc;
+      border: none;
+      background-color:  #ffffff;
+
+      padding: 9px 10px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .product-btn svg {
+      margin-left: 5px; 
+    }
+
+
+
+
+/*  Resources section*/
+.feature-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 2px; /* Gap between columns */
+  padding: 40px; /* Padding for the outer box */
+
+}
+.feature-para{
+   font-family: Inter;
+   font-size: 16px;
+   margin-top: 10px;
+   text-align: center;
+ 
+ 
+}
+.feature-heading{
+  font-family: Inter;
+  font-size: 32px;
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 25px;
+ 
+}
+.feature-heading{
+  font-family: Inter;
+  font-size: 32px;
+}
+
+.features-para{
+  font-family: Inter;
+  font-size: 16px;
+  margin-top: 10px;
+  color: gray;
+
+}
+.feature-col-img{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right:18%;
+  
+}
+.feature-col{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 20px;
+ 
+}
+.feature-img{
+  max-width: 100%;
+  height: auto;
+ 
+}
+.features-details{
+  border: 1px solid none;
+  display: flex;
+  padding-right: 12%;
+  padding-left: 13%;
+  margin: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.features-btn{
+  margin-top: 15px;
+  color: #1623dc;
+  border: none;
+  background-color: transparent;
+  padding: 9px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.features-btn svg {
+  margin-left: 5px; 
+}
+
+
+/*  Testimonials styles */
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  padding: 30px;
+
+
+}
+.testimonials1{
+  box-sizing:border-box;
+  box-shadow: 0px 1px 1px 1pxrgb(215, 223, 226);
+  background-color: rgb(215, 223, 226);
+  text-align: center;
+  width: 80%;
+  border-radius: 20px;
+
+}
+
+.testimonial-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+  color: black;
+  padding-top: 20px;
+}
+
+.testimonial-content {
+  text-align: center
+}
+
+.testimonial-paragraph {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+   margin: 10px 0;
+   padding: 30px;
+}
+
+.testimonial-avatar img {
+  max-width: 40px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.avatar-details {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 14px;
+}
+
+.avatar-name {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.company-name {
+  font-size: 12px;
+  margin: 0;
+}
+
+
+/* blogs in  section */
+/* Blog card styles */
+/* General styles */
+.blogs-container {
+  display: flex;
+  flex-direction: row; /* Stack cards vertically */
+  align-items: center;
+  padding-left: 30px;
+}
+
+.blogs-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-card {
+  width: 30%;
+  background-color:none;
+  border: 1px solid none;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px #151B28;
+}
+
+.blog-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.blogs-heading {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.blogs-para {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author-details img {
+  max-width: 30px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.blog-item {
+  text-align: left;
+}
+
+.blog-item h6 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.blog-item p {
+  font-size: 15px;
+  margin: 0;
+}
+.blog-date{
+   font-size: 13px;
+   font-weight: 400;
+   padding-left: 50%;
+}
+
+/* product to be used By */
+.product-used-container{
+  text-align: center;
+  padding-top: 30px;
+}
+.product-main-headings{
+  text-align: center;
+}
+.img-containers{
+  display: flex;
+  justify-content: space-around ;
+  text-align: center;
+  column-gap: 100px;
+  padding-top: 30px;
+  padding: 40px;
+
+}
+.industry-container{
+  text-align: center;
+  padding-top: 30px;
+}
+.indusrty1{
+  color: #1c259d;
+  font-weight: bold;
+}
+.industry2{
+ text-align: center;
+  padding: 12px;
+}
+.input-industry{
+  padding: 8px;
+  width: 30%;
+  border-radius: 5px;
+}
+.input-btn{
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #1c259d;
+  color: white;
+}
+.industry-approvals{
+  margin-top: 20px;
+}
+
+/* Css for Testimonials*/
+/* Common styles */
+.testimonial-full-container{
+ 
+  background: #151B28;
+
+  color: aliceblue;
+  height: auto;
+
+}
+.testimonial-container-footer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr) ;
+  grid-gap:10px;
+  margin-top:40px;
+  padding: 80px;
+}
+.footer{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 60%;
+  padding-bottom: 50px;
+}
+.social-icons{
+   display: flex;
+   justify-content:space-around;
+   column-gap: 13px;
+  
+}
+
+.list-of-items{
+  font-size: 15px;
+  color: gray;
+}
+.footer-input{
+  padding: 4px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.footer-btn{
+  padding: 4px;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: #274c9c;
+  color: aliceblue;
+}
+
+
+
+
+/* Mobile screen */
+@media only screen and (max-width: 768px) {
+        .home-container{
+            display: flex;
+            flex-direction: column; /* Stack containers vertically on mobile */
+            align-items: center;
+           
+        
+        }
+        .home-container1{
+            order: 2; /* Change order to place below on mobile */
+          }
+        
+          .home-img-containers {
+            order: 1; /* Change order to place above on mobile */
+            text-align: center; /* Center align text */
+            padding: 34px;
+            background: none;
+            margin-top: 10px;
+          }
+          .git-img,
+          .slack-img,
+          .netflx-img,
+          .paypal-img {
+            width: 80px;
+            height: 20px;
+           margin: 10px;
+           padding-left: 3px;
+          }
+        .home-btn{
+            text-align: center;
+            font-size: medium ;
+           margin: 10px;
+            width:80%;
+           height: 46px;
+        
+           }   
+        .products-col{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          gap: 1px;
+          
+      }
+      .products-details{
+         border: 1px solid none;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         text-align: center;
+      }
+      .feature-col-img{
+        order: 1;
+        margin-top: 8%;
+        
+      }
+      .feature-col{
+        order: 2;
+       
+      }
+      .feature-container{
+        display: flex;
+        flex-direction: column; /* Stack containers vertically on mobile */
+        align-items: center;
+        
+      }
+      .blogs-container {
+        display: flex;
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center;
+      }
+      .blog-card {
+        width: 50%;
+      }
+      .blog-card {
+        padding: 15px; /* Adjust padding */
+      }
+    
+      .blogs-heading {
+        font-size: 16px; /* Adjust font size */
+      }
+    
+      .blogs-para {
+        font-size: 12px; /* Adjust font size */
+      }
+    
+      .author-details img {
+        max-width: 25px; /* Adjust avatar size */
+        margin-right: 5px;
+      }
+    
+      .blog-item h6 {
+        font-size: 10px; /* Adjust font size */
+      }
+      .blog-item p {
+        font-size: 8px; /* Adjust font size */
+      }
+      .input-industry{
+       
+        width: 58%;
+        border-radius: 5px;
+      } 
+      .input-btn{
+        border-radius: 5px;
+        margin-top:10px;
+        width: 44%;
+        padding: 8px;
+        background-color: #1c259d;
+        color: white;
+      } 
+      .img-containers{
+        display: flex;
+         flex-direction: row; 
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+      
+      } 
+      .testimonial-container-footer{
+        display: grid;
+        grid-template-columns: repeat(1,2fr) ;
+        grid-gap:10px;
+        margin-top:50px;
+      }
+      .list-of-items{
+        font-size: 10px!important;
+        font-weight: 100 !important;
+      }
+
+      .footer{
+        margin-top: 15px;
+        display: grid;
+        gap: 20%;
+      }
+      .list-of-items{
+        font-size: 15px;
+        color: gray;
+      }
+    
+  
+     
+}
+
+
+
+
+
+
+/* medium screen */
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
+    .home-container1 {
+        flex: 1;
+        justify-content: center;
+        margin-right: 0;
+        padding-left: 5%;
+      }
+    
+      .home-btn {
+        margin-right: 0;
+      }
+    
+      .we-support-container {
+        margin-right: 0;
+      }    
+      .graphic-img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+      }
+      .git-img,
+      .slack-img,
+      .netflx-img,
+      .paypal-img {
+        width: 80px;
+        height: 20px;
+       margin: 10px;
+       padding-left: 3px;
+      }
+      .products-col{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1px;
+        
+    }
+    .products-details{
+       border: 1px solid none;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       text-align: center;
+    }  
+    .feature-col-img{
+      order: 1;
+      margin-top: 8%;
+      
+    }
+    .feature-col{
+      order: 2;
+     
+    }
+    .feature-container-footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .avatar {
+      max-width: 30px; /* Adjust avatar size */
+      margin-right: 5px; /* Adjust spacing */
+    }
+    
+    .blogs-container {
+      padding: 40px; /* Adjust padding */
+    }
+  
+    .blog-card {
+      width: 80%; 
+      margin: 3px; 
+      display:grid;
+      grid-template-columns: repeat(1,1fr) ;
+      grid-gap:1%;
+
+
+    }
+    .testimonial-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr) ;
+      grid-gap:1px;
+      margin-top:40px;
+    }
+    .list-of-items{
+      font-size: 10px!important;
+      font-weight: 100 !important;
+    }
+
+}
+
